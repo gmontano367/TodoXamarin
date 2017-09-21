@@ -22,7 +22,7 @@ namespace Todo
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-			MobileCenter.Start("17f9494d-f1b5-40e1-b64c-912dd6ae8d84", typeof(Analytics), typeof(Crashes));
+			MobileCenter.Start("a4d447be-17dc-475b-a8d3-2d149c3cfe86", typeof(Analytics), typeof(Crashes));
 
 			SpeakingActivityContext = this; // HACK: for SpeakButtonRenderer to get an Activity/Context reference
 
